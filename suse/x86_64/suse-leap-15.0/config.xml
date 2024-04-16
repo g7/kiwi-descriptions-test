@@ -17,7 +17,7 @@
         <version>1.15.0</version>
         <packagemanager>zypper</packagemanager>
         <locale>en_US</locale>
-        <keytable>us</keytable>
+        <keytable>it.map.gz</keytable>
         <timezone>Europe/Berlin</timezone>
         <rpm-excludedocs>true</rpm-excludedocs>
         <rpm-check-signatures>false</rpm-check-signatures>
@@ -47,10 +47,12 @@
     </preferences>
     <users>
         <user password="$1$wYJUgpM5$RXMMeASDc035eX.NbYWFl0" home="/root" name="root" groups="root"/>
-    </users>
+</users>
+    
     <repository type="rpm-md" alias="kiwi" priority="1">
-        <source path="obs://Virtualization:Appliances:Builder/openSUSE_Leap_15.0"/>
+        <source path="obs://home:epaolantonio:branches:Virtualization:Appliances:Builder/openSUSE_Leap_15.0"/>
     </repository>
+    
     <repository type="rpm-md" alias="Leap_15_0" imageinclude="true">
         <source path="obs://openSUSE:Leap:15.0/standard"/>
     </repository>

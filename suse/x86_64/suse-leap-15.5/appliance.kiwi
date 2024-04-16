@@ -18,7 +18,7 @@
         <version>1.15.5</version>
         <packagemanager>zypper</packagemanager>
         <locale>en_US</locale>
-        <keytable>us</keytable>
+        <keytable>it.map.gz</keytable>
         <timezone>Europe/Berlin</timezone>
         <rpm-excludedocs>true</rpm-excludedocs>
         <rpm-check-signatures>false</rpm-check-signatures>
